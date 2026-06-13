@@ -1,0 +1,368 @@
+/* Distilleri Styles */
+
+/* Opinion highlight styles */
+.fallacy-indicator {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Fallacy tooltip */
+.fallacy-tooltip {
+  z-index: 99999 !important;
+  pointer-events: none;
+}
+
+/* Selection tooltip (when user highlights text) */
+.selection-highlight {
+  background-color: #fff9c4 !important;
+  border-bottom: 1px dashed #fbc02d;
+  cursor: pointer;
+}
+
+/* Right-click context menu */
+.context-menu {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  padding: 8px;
+  z-index: 10000;
+  min-width: 200px;
+}
+
+.context-menu-item {
+  display: block;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.context-menu-item:hover {
+  background: #f0f0f0;
+}
+
+.context-menu-item.disabled {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* Sidebar for fallacy explanations */
+.fallacy-sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 320px;
+  background: white;
+  border-left: 1px solid #ccc;
+  box-shadow: -2px 0 8px rgba(0,0,0,0.1);
+  z-index: 9999;
+  overflow-y: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.fallacy-sidebar-header {
+  padding: 16px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.fallacy-item {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.fallacy-item:hover {
+  background: #f9f9f9;
+}
+
+.fallacy-item.active {
+  background: #fff3e0;
+  border-left: 3px solid #ff9800;
+}
+
+.fallacy-name {
+  font-weight: bold;
+  color: #c62828;
+}
+
+.fallacy-id {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.fallacy-explanation {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #555;
+}
+
+/* Loading indicator */
+.distilleri-loading {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  z-index: 100000;
+}
+
+/* Options page styles */
+.options-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.options-section {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.options-section h2 {
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.options-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.options-input:focus {
+  outline: none;
+  border-color: #4a90d9;
+  box-shadow: 0 0 0 2px rgba(74,144,217,0.2);
+}
+
+.options-label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #333;
+  font-size: 14px;
+}
+
+.options-toggle {
+  position: relative;
+  width: 48px;
+  height: 26px;
+  background: #ddd;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.options-toggle::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  transition: transform 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.options-toggle.active {
+  background: #4a90d9;
+}
+
+.options-toggle.active::after {
+  transform: translateX(20px);
+}
+
+.options-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.options-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #4a90d9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.options-button:hover {
+  background: #3a7bc8;
+}
+
+.options-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.options-dropdown {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  background: white;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.options-dropdown:focus {
+  outline: none;
+  border-color: #4a90d9;
+  box-shadow: 0 0 0 2px rgba(74,144,217,0.2);
+}
+
+.options-dropdown option {
+  padding: 4px;
+}
+
+.upsell-message {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-top: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.upsell-message::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent);
+}
+
+.upsell-message.urgent {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.upsell-message.success {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.price-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.price-card {
+  padding: 16px;
+  border-radius: 8px;
+  border: 2px solid;
+  text-align: center;
+}
+
+.price-card.free {
+  border-color: #999;
+  background: #f5f5f5;
+}
+
+.price-card.paid {
+  border-color: #4a90d9;
+  background: #e8f4fc;
+}
+
+.price-card h4 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+}
+
+.price-card ul {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 13px;
+}
+
+.price-card li {
+  margin-bottom: 4px;
+}
+
+.price-card.upsell {
+  border-color: #667eea;
+  background: linear-gradient(135deg, rgba(102,126,234,0.1), rgba(118,75,162,0.1));
+  transform: scale(1.05);
+}
+
+.price-card.upsell h4 {
+  color: #667eea;
+}
+
+.options-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.options-row:last-child {
+  border-bottom: none;
+}
+
+.options-row-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.options-row-toggle {
+  width: 48px;
+  height: 26px;
+  background: #ddd;
+  border-radius: 13px;
+  cursor: pointer;
+  position: relative;
+}
+
+.options-row-toggle::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  transition: transform 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.options-row-toggle.active {
+  background: #4a90d9;
+}
+
+.options-row-toggle.active::after {
+  transform: translateX(20px);
+}

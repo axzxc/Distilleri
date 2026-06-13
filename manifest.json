@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "Distilleri",
+  "version": "1.0.0",
+  "description": "Rhetorical analysis: highlight opinions and detect fallacies",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "contextMenus",
+    "scripting"           // needed for injecting highlights into page
+  ],
+  "host_permissions": [
+    "<all_urls>",         // required for content script and API calls
+    "https://api.openai.com/*",
+    "https://api.anthropic.com/*",
+    "https://api.deepseek.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end",
+      "world": "MAIN"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "data/fallacies.json",
+        "models/*"          // allow local model files (ONNX, etc.)
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "options_page": "options.html"
+}

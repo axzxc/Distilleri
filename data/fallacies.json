@@ -1,0 +1,77 @@
+{
+  "F-01": {
+    "name": "Ad Hominem",
+    "explanation": "Attacking the person making the argument rather than addressing the argument itself.",
+    "example": "You're just a young person who doesn't understand economics."
+  },
+  "F-02": {
+    "name": "Straw Man",
+    "explanation": "Misrepresenting someone's argument to make it easier to attack.",
+    "example": "A: We should have better healthcare. B: Why do you want to give free stuff to everyone?"
+  },
+  "F-03": {
+    "name": "Appeal to Authority",
+    "explanation": "Claiming something is true because an authority figure says so, even when they're not an expert in the relevant field.",
+    "example": "A famous actor says this supplement works, so it must be effective."
+  },
+  "F-04": {
+    "name": "False Dilemma",
+    "explanation": "Presenting only two options when more exist.",
+    "example": "You're either with us or against us."
+  },
+  "F-05": {
+    "name": "Slippery Slope",
+    "explanation": "Claiming that one event will inevitably lead to a chain of negative consequences without evidence.",
+    "example": "If we allow students to redo exams, soon they'll stop taking tests altogether."
+  },
+  "F-06": {
+    "name": "Circular Reasoning",
+    "explanation": "The conclusion is included in the premise, making the argument tautological.",
+    "example": "The Bible is true because it says so, and we know the Bible is true because it's the word of God."
+  },
+  "F-07": {
+    "name": "Appeal to Popularity (Ad Populum)",
+    "explanation": "Claiming something is true because many people believe it.",
+    "example": "Millions of people smoke, so smoking must be safe."
+  },
+  "F-08": {
+    "name": "Red Herring",
+    "explanation": "Introducing an irrelevant topic to divert attention from the original issue.",
+    "example": "Why worry about the environment when there are people starving?"
+  },
+  "F-09": {
+    "name": "Ad Verecundiam (Appeal to Ignorance)",
+    "explanation": "Claiming something is true because it hasn't been proven false, or vice versa.",
+    "example": "No one has proven aliens don't exist, so they must exist."
+  },
+  "F-10": {
+    "name": "Hasty Generalization",
+    "explanation": "Drawing a broad conclusion from a small or unrepresentative sample.",
+    "example": "I met two rude people from that city, so everyone there must be rude."
+  },
+  "F-11": {
+    "name": "Post Hoc Ergo Propter Hoc",
+    "explanation": "Assuming that because B followed A, A caused B.",
+    "example": "I wore my lucky socks and we won the game, so the socks caused the victory."
+  },
+  "F-12": {
+    "name": "Appeal to Nature",
+    "explanation": "Claiming something is good because it's natural, or bad because it's artificial.",
+    "example": "This herbal remedy is safer because it's all-natural."
+  },
+  "F-13": {
+    "name": "Tu Quoque",
+    "explanation": "Deflecting criticism by pointing out the accuser does the same thing.",
+    "example": "You say I shouldn't smoke, but you used to smoke too!"
+  },
+  "F-14": {
+    "name": "Genetic Fallacy",
+    "explanation": "Judging something based on its origin rather than its current merits.",
+    "example": "That theory was developed by a controversial person, so it must be wrong."
+  },
+  "F-15": {
+    "name": "False Cause",
+    "explanation": "Incorrectly identifying the cause of an event.",
+    "example": "The rooster crows before sunrise, therefore the rooster causes sunrise."
+  }
+}

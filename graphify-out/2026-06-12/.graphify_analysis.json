@@ -1,0 +1,156 @@
+{
+  "communities": {
+    "0": [
+      "manifest",
+      "manifest_background",
+      "manifest_background_service_worker",
+      "manifest_background_type",
+      "manifest_content_scripts",
+      "manifest_content_security_policy",
+      "manifest_content_security_policy_extension_pages",
+      "manifest_description",
+      "manifest_host_permissions",
+      "manifest_manifest_version",
+      "manifest_name",
+      "manifest_options_page",
+      "manifest_permissions",
+      "manifest_version",
+      "manifest_web_accessible_resources"
+    ],
+    "1": [
+      "content",
+      "content_analyzetextforopinion",
+      "content_createfallacytooltip",
+      "content_detectfallacies",
+      "content_extractarticlecontent",
+      "content_highlightopinion",
+      "content_huetocolor",
+      "content_init",
+      "content_intensitytodarkcolor",
+      "content_intensitytohue",
+      "content_loadfallacies",
+      "content_loadstate",
+      "content_processpage",
+      "content_savestate"
+    ],
+    "2": [
+      "background",
+      "background_analyzetext",
+      "background_analyzewithapi",
+      "background_analyzewithlocalmodel",
+      "background_cache",
+      "background_createelement",
+      "background_islicensevalid",
+      "background_testapikey"
+    ],
+    "3": [
+      "manifest_action",
+      "manifest_action_default_icon",
+      "manifest_action_default_popup",
+      "manifest_default_icon_128",
+      "manifest_default_icon_16",
+      "manifest_default_icon_48"
+    ],
+    "4": [
+      "manifest_icons",
+      "manifest_icons_128",
+      "manifest_icons_16",
+      "manifest_icons_48"
+    ],
+    "5": [
+      "popup",
+      "popup_loadstate",
+      "popup_toggles",
+      "popup_updatestate"
+    ],
+    "6": [
+      "options",
+      "options_loadsettings",
+      "options_updatemodelsectionvisibility"
+    ],
+    "7": [
+      "funcs",
+      "funcs_createelement"
+    ],
+    "8": [
+      "icons_base64",
+      "icons_base64_b64icons"
+    ],
+    "9": [
+      "icon16"
+    ],
+    "10": [
+      "icon48"
+    ]
+  },
+  "cohesion": {
+    "0": 0.13333333333333333,
+    "1": 0.24175824175824176,
+    "2": 0.35714285714285715,
+    "3": 0.3333333333333333,
+    "4": 0.5,
+    "5": 0.5,
+    "6": 1.0,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0
+  },
+  "gods": [
+    {
+      "id": "content_processpage",
+      "label": "processPage()",
+      "degree": 5
+    },
+    {
+      "id": "background_analyzetext",
+      "label": "analyzeText()",
+      "degree": 4
+    },
+    {
+      "id": "content_highlightopinion",
+      "label": "highlightOpinion()",
+      "degree": 4
+    },
+    {
+      "id": "content_init",
+      "label": "init()",
+      "degree": 4
+    },
+    {
+      "id": "manifest_action_default_icon",
+      "label": "default_icon",
+      "degree": 4
+    },
+    {
+      "id": "manifest_icons",
+      "label": "icons",
+      "degree": 4
+    },
+    {
+      "id": "content_intensitytodarkcolor",
+      "label": "intensityToDarkColor()",
+      "degree": 3
+    },
+    {
+      "id": "manifest_background",
+      "label": "background",
+      "degree": 3
+    },
+    {
+      "id": "manifest_action",
+      "label": "action",
+      "degree": 3
+    },
+    {
+      "id": "background_analyzewithapi",
+      "label": "analyzeWithAPI()",
+      "degree": 2
+    }
+  ],
+  "surprises": [],
+  "tokens": {
+    "input": 4095,
+    "output": 194
+  }
+}

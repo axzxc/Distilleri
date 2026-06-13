@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Distilleri Options</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Distilleri Settings</h1>
+
+    <!-- API Key Section -->
+    <div class="section">
+      <h2>API Configuration</h2>
+      <!--label for="openai-key">OpenAI API Key:</label>
+      <input type="password" id="openai-key" placeholder="sk-..." class="input">
+      <label for="anthropic-key">Anthropic API Key:</label>
+      <input type="password" id="anthropic-key" placeholder="sk-..." class="input"-->
+	  <select id="keySelect" class="keySelect"></select>
+    </div>
+
+    <!-- Tier Section -->
+    <div class="section">
+      <h2>Tier Selection</h2>
+      <label class="toggle">
+        <input type="checkbox" id="paid-tier-toggle">
+        <span>Paid Tier ($3/mo)</span>
+      </label>
+      <p class="note">Local model - no data leaves your device</p>
+    </div>
+
+    <!-- Model Selection (shown when paid tier enabled) -->
+    <div class="section" id="model-section" style="display:none;">
+      <h2>Model Selection</h2>
+      <label for="model-select">Small Local Model:</label>
+      <select id="model-select" class="input">
+        <option value="tiny">Tiny (Fastest)</option>
+        <option value="small" selected>Small (Balanced)</option>
+        <option value="medium">Medium (Best)</option>
+      </select>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <button id="save-btn" class="btn-primary">Save Settings</button>
+      <button id="reset-btn" class="btn-secondary">Reset</button>
+    </div>
+
+    <!-- Instructions -->
+    <div class="section">
+      <h2>Instructions</h2>
+      <p><strong>Free Tier:</strong> Enter your API keys. Costs apply per article.</p>
+      <p><strong>Paid Tier:</strong> Enable local model. Unlimited, private.</p>
+      <p class="upsell">💡 If you read >20 articles/month, your API costs exceed $3 — switch to our local model.</p>
+    </div>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

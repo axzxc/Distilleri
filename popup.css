@@ -1,0 +1,40 @@
+/* Distilleri Popup Styles */
+/* Additional styling for popup.html */
+
+body {
+  min-height: 400px;
+}
+
+.toggle {
+  transition: background 0.2s;
+}
+
+.toggle:active {
+  transform: scale(0.98);
+}
+
+.upgrade {
+  text-align: center;
+  font-weight: 500;
+}
+
+.upgrade:hover {
+  background: #ffe0b2;
+  transform: scale(1.02);
+}
+
+.tier {
+  border: 1px solid #e0e0e0;
+}
+
+.tier h3 {
+  color: #1976d2;
+}
+
+.info {
+  border: 1px solid #bbdefb;
+}
+
+.version {
+  font-style: italic;
+}

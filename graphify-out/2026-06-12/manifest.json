@@ -1,0 +1,52 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1781127430.795973,
+    "ast_hash": "e1073342e958ac9f00716938c8f165e3",
+    "semantic_hash": "e1073342e958ac9f00716938c8f165e3"
+  },
+  ".claude/settings.local.json": {
+    "mtime": 1781125228.0609982,
+    "ast_hash": "d6b9c24bb18a6931a0232e9d635d28b1",
+    "semantic_hash": "d6b9c24bb18a6931a0232e9d635d28b1"
+  },
+  "background.js": {
+    "mtime": 1781151871.8341646,
+    "ast_hash": "32955b41c2bd94d25c12af350eb7cb41",
+    "semantic_hash": "32955b41c2bd94d25c12af350eb7cb41"
+  },
+  "content.js": {
+    "mtime": 1781112997.9295201,
+    "ast_hash": "22f59207ae995329a7e3abfe700c5e3c",
+    "semantic_hash": "22f59207ae995329a7e3abfe700c5e3c"
+  },
+  "data/fallacies.json": {
+    "mtime": 1781112862.5531087,
+    "ast_hash": "a182a7282e315cf97a1f22508f9815b9",
+    "semantic_hash": "a182a7282e315cf97a1f22508f9815b9"
+  },
+  "funcs.js": {
+    "mtime": 1781151391.7085187,
+    "ast_hash": "1a6da0340ef2e4184a0fe42a80bae994",
+    "semantic_hash": "1a6da0340ef2e4184a0fe42a80bae994"
+  },
+  "icons/base64.js": {
+    "mtime": 1781142431.097847,
+    "ast_hash": "5758f90b6ebdfcd718f21daa710284d6",
+    "semantic_hash": "5758f90b6ebdfcd718f21daa710284d6"
+  },
+  "manifest.json": {
+    "mtime": 1781150644.294994,
+    "ast_hash": "95c26e74f22ff2f5fdabe53efa328f17",
+    "semantic_hash": "95c26e74f22ff2f5fdabe53efa328f17"
+  },
+  "options.js": {
+    "mtime": 1781151896.7715194,
+    "ast_hash": "d96e0ae706a84c637076a6c2f1b54a4a",
+    "semantic_hash": "d96e0ae706a84c637076a6c2f1b54a4a"
+  },
+  "popup.js": {
+    "mtime": 1781150464.0047393,
+    "ast_hash": "95af5531e173ba877aa1505e8671f746",
+    "semantic_hash": "95af5531e173ba877aa1505e8671f746"
+  }
+}

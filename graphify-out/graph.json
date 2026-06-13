@@ -1,0 +1,1272 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "background.js",
+      "file_type": "code",
+      "source_file": "background.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "background.js",
+      "id": "background"
+    },
+    {
+      "label": "createElement()",
+      "file_type": "code",
+      "source_file": "background.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "createelement()",
+      "id": "background_createelement"
+    },
+    {
+      "label": "cache",
+      "file_type": "code",
+      "source_file": "background.js",
+      "source_location": "L103",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "cache",
+      "id": "background_cache"
+    },
+    {
+      "label": "analyzeText()",
+      "file_type": "code",
+      "source_file": "background.js",
+      "source_location": "L105",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "analyzetext()",
+      "id": "background_analyzetext"
+    },
+    {
+      "label": "analyzeWithAPI()",
+      "file_type": "code",
+      "source_file": "background.js",
+      "source_location": "L134",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "analyzewithapi()",
+      "id": "background_analyzewithapi"
+    },
+    {
+      "label": "analyzeWithLocalModel()",
+      "file_type": "code",
+      "source_file": "background.js",
+      "source_location": "L190",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "analyzewithlocalmodel()",
+      "id": "background_analyzewithlocalmodel"
+    },
+    {
+      "label": "isLicenseValid()",
+      "file_type": "code",
+      "source_file": "background.js",
+      "source_location": "L210",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "islicensevalid()",
+      "id": "background_islicensevalid"
+    },
+    {
+      "label": "testApiKey()",
+      "file_type": "code",
+      "source_file": "background.js",
+      "source_location": "L229",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "testapikey()",
+      "id": "background_testapikey"
+    },
+    {
+      "label": "content.js",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "content.js",
+      "id": "content"
+    },
+    {
+      "label": "loadFallacies()",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "loadfallacies()",
+      "id": "content_loadfallacies"
+    },
+    {
+      "label": "loadState()",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L31",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "loadstate()",
+      "id": "content_loadstate"
+    },
+    {
+      "label": "saveState()",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L39",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "savestate()",
+      "id": "content_savestate"
+    },
+    {
+      "label": "analyzeTextForOpinion()",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L44",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "analyzetextforopinion()",
+      "id": "content_analyzetextforopinion"
+    },
+    {
+      "label": "intensityToHue()",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L80",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "intensitytohue()",
+      "id": "content_intensitytohue"
+    },
+    {
+      "label": "hueToColor()",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L87",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "huetocolor()",
+      "id": "content_huetocolor"
+    },
+    {
+      "label": "intensityToDarkColor()",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L94",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "intensitytodarkcolor()",
+      "id": "content_intensitytodarkcolor"
+    },
+    {
+      "label": "highlightOpinion()",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L102",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "highlightopinion()",
+      "id": "content_highlightopinion"
+    },
+    {
+      "label": "detectFallacies()",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L124",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "detectfallacies()",
+      "id": "content_detectfallacies"
+    },
+    {
+      "label": "createFallacyTooltip()",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L210",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "createfallacytooltip()",
+      "id": "content_createfallacytooltip"
+    },
+    {
+      "label": "extractArticleContent()",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L232",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "extractarticlecontent()",
+      "id": "content_extractarticlecontent"
+    },
+    {
+      "label": "processPage()",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L257",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "processpage()",
+      "id": "content_processpage"
+    },
+    {
+      "label": "init()",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L308",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "init()",
+      "id": "content_init"
+    },
+    {
+      "label": "funcs.js",
+      "file_type": "code",
+      "source_file": "funcs.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "funcs.js",
+      "id": "funcs"
+    },
+    {
+      "label": "createElement()",
+      "file_type": "code",
+      "source_file": "funcs.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "createelement()",
+      "id": "funcs_createelement"
+    },
+    {
+      "label": "base64.js",
+      "file_type": "code",
+      "source_file": "icons/base64.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "base64.js",
+      "id": "icons_base64"
+    },
+    {
+      "label": "b64Icons",
+      "file_type": "code",
+      "source_file": "icons/base64.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "b64icons",
+      "id": "icons_base64_b64icons"
+    },
+    {
+      "label": "manifest.json",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "manifest.json",
+      "id": "manifest"
+    },
+    {
+      "label": "manifest_version",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "manifest_version",
+      "id": "manifest_manifest_version"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "name",
+      "id": "manifest_name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "version",
+      "id": "manifest_version"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "description",
+      "id": "manifest_description"
+    },
+    {
+      "label": "permissions",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "permissions",
+      "id": "manifest_permissions"
+    },
+    {
+      "label": "host_permissions",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "host_permissions",
+      "id": "manifest_host_permissions"
+    },
+    {
+      "label": "background",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "background",
+      "id": "manifest_background"
+    },
+    {
+      "label": "service_worker",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "service_worker",
+      "id": "manifest_background_service_worker"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "type",
+      "id": "manifest_background_type"
+    },
+    {
+      "label": "content_scripts",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "content_scripts",
+      "id": "manifest_content_scripts"
+    },
+    {
+      "label": "action",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L31",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "action",
+      "id": "manifest_action"
+    },
+    {
+      "label": "default_popup",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L32",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "default_popup",
+      "id": "manifest_action_default_popup"
+    },
+    {
+      "label": "default_icon",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L33",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "default_icon",
+      "id": "manifest_action_default_icon"
+    },
+    {
+      "label": "16",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L34",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "16",
+      "id": "manifest_default_icon_16"
+    },
+    {
+      "label": "48",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L35",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "48",
+      "id": "manifest_default_icon_48"
+    },
+    {
+      "label": "128",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L36",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "128",
+      "id": "manifest_default_icon_128"
+    },
+    {
+      "label": "icons",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L39",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "icons",
+      "id": "manifest_icons"
+    },
+    {
+      "label": "16",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L40",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "16",
+      "id": "manifest_icons_16"
+    },
+    {
+      "label": "48",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L41",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "48",
+      "id": "manifest_icons_48"
+    },
+    {
+      "label": "128",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L42",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "128",
+      "id": "manifest_icons_128"
+    },
+    {
+      "label": "web_accessible_resources",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L44",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "web_accessible_resources",
+      "id": "manifest_web_accessible_resources"
+    },
+    {
+      "label": "content_security_policy",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L53",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "content_security_policy",
+      "id": "manifest_content_security_policy"
+    },
+    {
+      "label": "extension_pages",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L54",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "extension_pages",
+      "id": "manifest_content_security_policy_extension_pages"
+    },
+    {
+      "label": "options_page",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L56",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "options_page",
+      "id": "manifest_options_page"
+    },
+    {
+      "label": "options.js",
+      "file_type": "code",
+      "source_file": "options.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "options.js",
+      "id": "options"
+    },
+    {
+      "label": "loadSettings()",
+      "file_type": "code",
+      "source_file": "options.js",
+      "source_location": "L29",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "loadsettings()",
+      "id": "options_loadsettings"
+    },
+    {
+      "label": "updateModelSectionVisibility()",
+      "file_type": "code",
+      "source_file": "options.js",
+      "source_location": "L41",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "updatemodelsectionvisibility()",
+      "id": "options_updatemodelsectionvisibility"
+    },
+    {
+      "label": "popup.js",
+      "file_type": "code",
+      "source_file": "popup.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "popup.js",
+      "id": "popup"
+    },
+    {
+      "label": "toggles",
+      "file_type": "code",
+      "source_file": "popup.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "toggles",
+      "id": "popup_toggles"
+    },
+    {
+      "label": "loadState()",
+      "file_type": "code",
+      "source_file": "popup.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "loadstate()",
+      "id": "popup_loadstate"
+    },
+    {
+      "label": "updateState()",
+      "file_type": "code",
+      "source_file": "popup.js",
+      "source_location": "L25",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "updatestate()",
+      "id": "popup_updatestate"
+    },
+    {
+      "file_type": "image",
+      "source_file": "icons/icon16.svg",
+      "label": "Icon for Distilleri extension (16x16 pixels)",
+      "edges": [],
+      "community": 9,
+      "norm_label": "icon for distilleri extension (16x16 pixels)",
+      "id": "icon16"
+    },
+    {
+      "file_type": "image",
+      "source_file": "icons/icon48.svg",
+      "label": "Icon for Distilleri extension (48x48 pixels)",
+      "edges": [],
+      "community": 10,
+      "norm_label": "icon for distilleri extension (48x48 pixels)",
+      "id": "icon48"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "background.js",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "background",
+      "target": "background_analyzetext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "background.js",
+      "source_location": "L134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "background",
+      "target": "background_analyzewithapi"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "background.js",
+      "source_location": "L190",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "background",
+      "target": "background_analyzewithlocalmodel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "background.js",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "background",
+      "target": "background_cache"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "background.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "background",
+      "target": "background_createelement"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "background.js",
+      "source_location": "L210",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "background",
+      "target": "background_islicensevalid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "background.js",
+      "source_location": "L229",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "background",
+      "target": "background_testapikey"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "options.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "options",
+      "target": "background"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "background.js",
+      "source_location": "L125",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "background_analyzetext",
+      "target": "background_analyzewithapi"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "background.js",
+      "source_location": "L122",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "background_analyzetext",
+      "target": "background_analyzewithlocalmodel"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "background.js",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "background_analyzetext",
+      "target": "background_islicensevalid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content",
+      "target": "content_analyzetextforopinion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L210",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content",
+      "target": "content_createfallacytooltip"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L124",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content",
+      "target": "content_detectfallacies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L232",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content",
+      "target": "content_extractarticlecontent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content",
+      "target": "content_highlightopinion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content",
+      "target": "content_huetocolor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L308",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content",
+      "target": "content_init"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content",
+      "target": "content_intensitytodarkcolor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content",
+      "target": "content_intensitytohue"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content",
+      "target": "content_loadfallacies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content",
+      "target": "content_loadstate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L257",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content",
+      "target": "content_processpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content",
+      "target": "content_savestate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L309",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content_init",
+      "target": "content_loadfallacies"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L310",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content_init",
+      "target": "content_loadstate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content_highlightopinion",
+      "target": "content_analyzetextforopinion"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content_intensitytodarkcolor",
+      "target": "content_intensitytohue"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L110",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content_highlightopinion",
+      "target": "content_intensitytodarkcolor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L272",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content_processpage",
+      "target": "content_highlightopinion"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L275",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content_processpage",
+      "target": "content_detectfallacies"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L263",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content_processpage",
+      "target": "content_extractarticlecontent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "content.js",
+      "source_location": "L320",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content_init",
+      "target": "content_processpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "funcs.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "funcs",
+      "target": "funcs_createelement"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "icons/base64.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "icons_base64",
+      "target": "icons_base64_b64icons"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "manifest_action"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "manifest_background"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "manifest_content_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "manifest_content_security_policy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "manifest_description"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "manifest_host_permissions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "manifest_icons"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "manifest_manifest_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "manifest_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "manifest_options_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "manifest_permissions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "manifest_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "manifest_web_accessible_resources"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_background",
+      "target": "manifest_background_service_worker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_background",
+      "target": "manifest_background_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_action",
+      "target": "manifest_action_default_icon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_action",
+      "target": "manifest_action_default_popup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_action_default_icon",
+      "target": "manifest_default_icon_128"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_action_default_icon",
+      "target": "manifest_default_icon_16"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_action_default_icon",
+      "target": "manifest_default_icon_48"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_icons",
+      "target": "manifest_icons_128"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_icons",
+      "target": "manifest_icons_16"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_icons",
+      "target": "manifest_icons_48"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_content_security_policy",
+      "target": "manifest_content_security_policy_extension_pages"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "options.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "options",
+      "target": "options_loadsettings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "options.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "options",
+      "target": "options_updatemodelsectionvisibility"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "options.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "options_loadsettings",
+      "target": "options_updatemodelsectionvisibility"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "popup.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "popup",
+      "target": "popup_loadstate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "popup.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "popup",
+      "target": "popup_toggles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "popup.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "popup",
+      "target": "popup_updatestate"
+    }
+  ],
+  "hyperedges": []
+}
